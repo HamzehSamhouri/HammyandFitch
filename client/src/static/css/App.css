@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    text-underline-offset: 3px;
+    /* border: 1px red dashed; */
+}
+
+.Homepage {
+    width: 100vw;
+}
+
+.MainLink {
+    text-decoration: none;
+    color: #253746;
+}
+
+.Link {
+    text-decoration: none;
+    color: #253746;
+}
+
+.Link:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+
+/* TOP HEADER */
+.TopHeader {
+    background-color: #f6f6f6;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 45px;
+    gap: 70%;
+}
+
+.SmallLogo {
+    background-color: #ffffff;
+    width: 10vw;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    min-width: 100px;
+}
+
+.SmallerFont {
+    font-size: small;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.SignIn {
+    text-align: center;
+    min-width: 100px;
+    margin-right: 100px;
+}
+
+.SignInIcon {
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* right: 0; */
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+/* BOTTOM HEADER */
+.BottomHeader {
+    background-color: #ffffff;
+    height: 8vh;
+    color: #253746;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    gap: 40%;
+    align-items: center;
+}
+
+
+.BottomHeaderLeft {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    min-width: 445px;
+}
+
+.MainLogo {
+    margin-right: 10px;
+}
+
+.BottomHeaderRight {
+    display: flex;
+    gap: 20px;
+}
+
+.Search {
+    padding: 10px 0px 10px 10px;
+    width: 300px;
+    max-height: 50px;
+    min-width: 200px;
+    font-size: medium;
+    color: #253746;
+    border: 1px solid #cccccc;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.SearchIcon {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+.CartIcon {
+    height: 30px;
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+}
+
+/* MAIN CONTENT HEADER */
+.MainContentHeader {
+    background-color: #253746;
+    height: 5vh;
+    min-height: 40px;
+}
+
+.MainContentHeaderText {
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 10px;
+    width: 30vw;
+    min-width: 450px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 5%;
+}
+
+.MainContentHeaderLinks {
+    color: white;
+}
+
+.MainContentHeaderLinks:hover {
+    color: #8a9097;
+}
+
+
+
+/* SlideShow */
+.Slideshow {
+    height: 102vh;
+}
+
+.SlideshowImages {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100vh;
+    width: 70vw;
+}
+
+.SlideshowText {
+    position: relative;
+    bottom: 350px;
+    right: 520px;
+    color: white;
+    font-size: 25px;
+    max-width: fit-content;
+}
+
+/* Focus Products Slideshow*/
+.FocusProductsSlideshow {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.FlexFocusProductSlideshow {
+    display: flex;
+    flex: 1;
+    padding-bottom: 5vh;
+    width: 95vw;
+}
+
+.FocusProductsSlideshowImage {
+    width: 20vw;
+}
+
+.FocusProductsSlideshowHeader {
+    margin-bottom: 40px;
+}
+
+.FocusProducts {
+    height: 95vh;
+    /* background-color: #253746; */
+    margin-bottom: 18vh;
+}
+
+/* Focus Products Images*/
+.FocusProductsImages {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100vh;
+    width: 80vw;
+}
+
+.BlackBorderRight {
+    border-right: 3px black solid;
+}
+
+.FocusProductsText {
+    position: relative;
+    bottom: 350px;
+    right: 550px;
+    color: white;
+    font-size: x-large;
+    max-width: fit-content;
+}
+
+.VerticalSpacing {
+    margin-top: 1vh;
+}
+
+.RegSpacing {
+    margin-top: 10vh;
+}
+
+.LoginSpacing {
+    margin-top: 27vh;
+}
+
+.ShopButton {
+    color: white;
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 1px solid white;
+    text-decoration: none;
+    position: relative;
+    font-size: large;
+    bottom: 320px;
+    left: 100px;
+}
+
+.ShopButton:hover {
+    color: #253746;
+    background-color: white;
+}
+
+/* Footer*/
+.Footer {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 30px;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 120px;
+}
+
+.SocialMediaIcons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 10vw;
+}
+
+.SocialMediaIcons img {
+    margin-top: 5px;
+    width: 20px;
+}
+
+
+
+/* CART */
+.MainCart {
+    text-align: center;
+    margin-top: 10vh;
+    height: 46vh;
+}
+
+
+/* MAIN CLOTHING */
+.MainClothing {
+    text-align: center;
+    margin-top: 5vh;
+    height: fit-content;
+}
+
+.MainClothingHeader {
+    text-align: left;
+    margin-left: 300px;
+}
+
+
+.ClientProductList {
+    margin-top: 20px;
+    width: fit-content;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: left;
+    padding: 10px;
+    font-size: large;
+}
+
+
+.FilterClothing {
+    display: flex;
+}
+
+.AllClothing {
+    width: 2000px;
+    /* background-color: gainsboro; */
+    justify-content: flex-start;
+}
+
+.SearchParameters {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 250px;
+}
+
+.SearchParameters input {
+    height: 40px;
+}
+
+.SearchParameters p {
+    margin-top: 10px;
+}
+
+
+.ClientProductList:hover {
+    border: 1px solid #253746;
+}
+
+.ClientProductList img {
+    width: 400px;
+}
+
+.MutedText {
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+
+/* MAIN PROMOTION */
+.MainPromotion {
+    margin-top: 5vh;
+    height: 51vh;
+    width: 70%;
+    color: #253746;
+}
+
+.MainPromotion h1 {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 50px;
+}
+
+.MainPromotion h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.Italics {
+    font-style: italic;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+.GothicFont {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.GaramondFont {
+    font-family: 'EB Garamond', serif;
+}
+
+
+/* ProductForm */
+
+.ProductForm {
+    width: 40vw;
+    margin-top: 30px;
+    color: #253746;
+    border: 1px solid #253746;
+    padding: 30px;
+}
+
+.ProductForm h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ProductForm label {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input[type=text],
+input[type=date],
+select,
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #253746;
+    font-size: larger;
+}
+
+.LoginandRegisterLink {
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+
+.Create {
+    background-color: #253746;
+    border: none;
+    color: white;
+    padding: 10px 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #253746;
+    margin-right: 10px;
+    margin-left: 100px;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.Create:hover {
+    background-color: white;
+    color: #253746;
+}
+
+/* FLASH ERROR MESSAGE */
+.Error {
+    color: #253746;
+    margin-bottom: 10px;
+    animation: blinker 0.2s linear 3;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.ManagerSearchParameters {
+    display: flex;
+    text-align: left;
+    margin-left: 60px;
+    width: 1050px;
+    align-items: center;
+    gap: 20px;
+}
+
+.ManagerSearchParameters input{
+    width: 250px;
+    height: 30px;
+    color: #253746;
+}
+
+
+.ProductList {
+    width: 70vw;
+    margin-top: 100px;
+    color: #253746;
+    border: 1px solid #253746;
+    padding: 30px;
+}
+
+.ProductList h1 {
+    margin-bottom: 10px;
+}
+
+.ProductListHeader {
+    margin-bottom: 20px;
+}
+
+
+.ProductListCard {
+    margin-top: 30px;
+    margin-left: 5px;
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #253746;
+}
+
+.ProductListCard img {
+    background-color: black;
+    margin-top: 5px;
+    width: 20vw;
+}
+
+.ProductListCardInfo {
+    width: 40vw;
+    padding: 10px;
+}
+
+.ProductListCard p {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.ProductListCard hr {
+    margin-bottom: 30px;
+}
+
+.Hide {
+    display: none;
+}
+
+input:hover+.Hide {
+    display: block;
+    color: maroon;
+}
+
+select:hover+.Hide {
+    display: block;
+    color: maroon;
+}
+
+.EditLink {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    background-color: #253746;
+    padding: 5px 20vw;
+}
+
+.EditLink:hover {
+    background-color: white;
+    color: #253746;
+    border: 2px solid #253746;
+}
+
+.DeleteButton {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    background-color: #253746;
+    padding: 4.5px 19.4vw;
+    margin-top: 10px;
+}
+
+.DeleteButton:hover {
+    background-color: white;
+    color: #253746;
+    border: 2px solid #253746;
+}
+
+.EditLinkSpacing {
+    margin-top: 20px;
+}
+
+.Detail {
+    margin-top: 50px;
+    width: 80vw;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.AdditionalImages {
+    border-top: 0.5px ridge #253746;
+    padding-top: 10px;
+    margin-left: 167px;
+    width: min-content;
+    display: flex;
+    gap: 20px;
+}
+
+.AdditionalImages img {
+    width: 23.3vw;
+}
+
+.HeartIcon {
+    height: 25px;
+    position: relative;
+    top: 8px;
+    margin-right: 5px;
+}
+
+.StarIcon {
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.DetailSpacing1 {
+    margin-bottom: 20px;
+}
+
+.DetailSpacing2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.DetailInfo {
+    margin-left: 20px;
+}
+
+.DetailButton {
+    background-color: #253746;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #253746;
+    font-size: larger;
+}
+
+.DetailButton:hover {
+    background-color: white;
+    color: #253746;
+}
+
+.Options{
+    display: flex;
+    width: 200px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.ColorOptionButtons{
+    color: #253746;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: smaller;
+    border: 1px solid #253746;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.HeatherGray{
+    background-color: #919097;
+}
+.Brown{
+    background-color: #ab9e8f;
+}
+.White{
+    background-color: white;
+}
+.Black{
+    background-color: black;
+}
+.Purple{
+    background-color: #998ca0;
+}
+
+.Green{
+    background-color: #2c3332;
+}
+
+.ColorOptionButtons:focus{
+    border: 2px solid #253746;
+}
+
+.SizingOptionsButtons{
+    color: #253746;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #253746;
+    font-size: smaller;
+}
+
+.SizingOptionsButtons:focus{
+    background-color: #253746;
+    color: white;
+}
+
+
+.WrongPage {
+    margin-top: 100px;
+    text-align: center;
+}
