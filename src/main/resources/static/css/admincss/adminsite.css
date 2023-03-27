@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    text-underline-offset: 3px;
+}
+
+body{
+    margin: 0 auto;
+    width: 75vw;
+    margin-top: 2vh;
+    color: #253746;
+    border: 1px solid #253746;
+    padding: 40px;
+}
+
+.ProductListHeader {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #253746;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: maroon;
+}
+
+.ProductListCard {
+    width: 70vw;
+    min-width: 500px;
+    margin-top: 30px;
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #253746;
+}
+
+.ProductListCard img {
+    margin-top: 5px;
+    width: 25vw;
+}
+
+.ProductListCardInfo {
+    width: 45vw;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.ProductListCard p {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.editlink {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    background-color: #253746;
+    padding: 0.75vh 20.2vw;
+    border: none;
+    margin: 15px 0px;
+}
+
+.editlink:hover {
+    color: #253746;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #253746;
+}
+
+
+.delete{
+    padding: 0.50vh 19.65vw;
+}
+
+.logout{
+    color: maroon;
+    float: right;
+}

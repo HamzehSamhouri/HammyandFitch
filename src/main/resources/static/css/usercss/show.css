@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+/** SHOW **/
+
+.Detail {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 75vw;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.PrimaryImage{
+    width: 35vw;
+    margin-right: 30px;
+}
+
+.AdditionalImages {
+    border-top: 0.5px ridge #253746;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 167px;
+    width: min-content;
+    display: flex;
+    gap: 20px;
+}
+
+.AdditionalImages img {
+    width: 23.3vw;
+}
+
+.saveforlater{
+    margin-top: 25px;
+}
+
+.HeartIcon {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.StarIcon {
+    height: 24px;
+    position: relative;
+    bottom: 10px;
+}
+
+.DetailButton {
+    background-color: #253746;
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #253746;
+    font-size: larger;
+}
+
+.DetailButton:hover {
+    background-color: white;
+    color: #253746;
+}
+
+.Options{
+    display: flex;
+    width: 200px;
+    margin-right: 350px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.ColorOptionButtons{
+    color: #253746;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: smaller;
+    border: 1px solid #253746;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.HeatherGray{
+    background-color: #919097;
+}
+.Brown{
+    background-color: #ab9e8f;
+}
+.White{
+    background-color: white;
+}
+.Black{
+    background-color: black;
+}
+.Purple{
+    background-color: #998ca0;
+}
+
+.Green{
+    background-color: #2c3332;
+}
+
+.ColorOptionButtons:focus{
+    border: 2px solid #253746;
+    padding: 19px;
+}
+
+.SizingOptionsButtons{
+    color: #253746;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #253746;
+    font-size: smaller;
+}
+
+.SizingOptionsButtons:focus{
+    background-color: #253746;
+    color: white;
+}
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+}

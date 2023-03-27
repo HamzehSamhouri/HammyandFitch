@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+/** MAIN CONTENT **/
+.maincontent {
+    margin: 0 auto;
+    width: 93vw;
+    min-width: 1100px;
+    height: 1020px;
+}
+
+.slideshow {
+    display: flex;
+
+}
+
+.slideshow img {
+    width: 50%;
+}
+
+.slideshowtext {
+    position: relative;
+    bottom: 325px;
+    right: -35px;
+    color: white;
+    font-size: 25px;
+    max-width: 600px;
+}
+
+.slideshowtext h1 {
+    font-weight: bolder;
+}
+
+.slideshowtext a {
+    color: white;
+    margin-left: 20px;
+    background-color: transparent;
+    padding: 15px 50px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 0.7px;
+
+}
+
+.slideshowtext a:hover {
+    color: #253746;
+    background-color: white;
+}
+
+.middleslideshow {
+    text-align: center;
+    margin: 0 auto;
+    width: 93vw;
+    min-width: 1100px;
+    height: 590px;
+    color: #253746;
+}
+
+.middleslideshowcontent {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    flex: 1;
+}
+
+.middleslideshowcontent a {
+    color: #253746;
+    text-decoration: none;
+}
+
+.middleslideshowcontent div:hover {
+    text-decoration: underline;
+}
+
+.middleslideshowcontent img {
+    margin-top: 20px;
+    width: 21vw;
+}

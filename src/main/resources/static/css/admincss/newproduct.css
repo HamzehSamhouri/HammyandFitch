@@ -1,0 +1,110 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    text-underline-offset: 3px;
+    color: #253746;
+    /* border: 1px red dashed; */
+}
+
+body{
+    margin: 0 auto;
+    width: 100vw;
+    /* height: 100vh; */
+    margin-top: 5vh;
+}
+
+.form{
+    width: 40vw;
+    margin-top: 30px;
+    border: 1px solid #253746;
+    padding: 30px;
+}
+
+input, select {
+width: 100%;
+padding: 12px 20px;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+color: #253746;
+font-size: larger;
+}
+
+label{
+    margin-top: 10px;
+}
+
+button{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #253746;
+    color: white;
+    font-size: larger;
+    border: none;
+}
+
+button:hover{
+    color: #253746;
+    background-color: white;
+    border: solid 1px #253746;
+}
+
+button:active{
+    color: white;
+    background-color: #253746;
+    box-shadow: 2px 2px 5px #253746;
+}
+
+a{
+    margin-top: 20px;
+    color: #253746;
+    text-decoration: none;
+}
+
+a:hover {
+    color: maroon;
+    text-decoration: underline;
+}
+
+.submitflex{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+/* FLASH ERROR MESSAGE */
+.error {
+    color: maroon;
+    margin-bottom: 10px;
+    animation: blinker 0.2s linear 3;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* HIDDEN REGISTER MESSAGE */
+.hide {
+    display: none;
+}
+
+input:hover + .hide {
+    display: block;
+    color: maroon;
+}
+
+select:hover + .hide {
+    display: block;
+    color: maroon;
+}

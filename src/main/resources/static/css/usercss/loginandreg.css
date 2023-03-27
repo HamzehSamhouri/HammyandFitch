@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
+.loginform{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 56.5vh;
+}
+
+.registerform{
+    margin: 0 auto;
+    margin-left: 500px;
+    height: 86vh;
+}
+
+.register, .login{
+        width: 40vw;
+        margin-top: 30px;
+        border: 1px solid #253746;
+        padding: 30px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #253746;
+    font-size: larger;
+}
+
+form i {
+    margin-left: -70px;
+}
+
+button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #253746;
+    border-radius: 4px;
+    color: white;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    color: #253746;
+    background-color: white;
+}
+
+button:active{
+    color: white;
+    background-color: #253746;
+    box-shadow: 2px 2px 5px #253746;
+}
+
+/* FLASH ERROR MESSAGE */
+.error {
+    color: maroon;
+    margin-bottom: 10px;
+    animation: blinker 0.2s linear 3;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+/* HIDDEN REGISTER MESSAGE */
+.hide {
+    display: none;
+}
+
+input:hover + .hide {
+    display: block;
+    color: maroon;
+}
+
+select:hover + .hide {
+    display: block;
+    color: maroon;
+}
+
+.register a{
+    color: #253746;
+    text-decoration: none;
+    margin-left: 180px;
+}
+
+.login a{
+    color: #253746;
+    text-decoration: none;
+    margin-left: 170px;
+}
+
+a:hover{
+    color: #253746;
+    text-decoration: underline;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+}
+
+.footer a:hover{
+    text-decoration: none;
+}

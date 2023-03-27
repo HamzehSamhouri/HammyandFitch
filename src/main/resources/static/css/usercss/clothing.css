@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+/** CLOTHING **/
+
+*{   
+     /* border: 1px dashed maroon; */
+}
+.clothing{
+    margin: 0 auto;
+    margin-top: 5vh;
+    height: auto;
+    width: 93vw;
+    display: flex;
+    color: #253746;
+    margin-bottom: 20px;
+}
+
+/* justify-content: flex-start; */
+
+.searchparameters{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 250px;
+}
+
+.searchparameters input{
+    margin-bottom: 20px;
+    text-indent: 10px;
+    color: #253746;
+}
+
+.searchparameters p:hover{
+    color: #2537469e;
+}
+
+.allclothing{
+    width: 110vw;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.clothingitems{
+    padding: 20px;
+}
+
+.clothingitems:hover{
+    box-shadow: 0 0 21px rgba(33,33,33,.2); 
+}
+
+.clothingitems img{
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.clothingitems a{
+    color: #253746;
+    text-decoration: none;
+}
+
+.clothingitems p{
+    color: #253746da;
+}
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+}

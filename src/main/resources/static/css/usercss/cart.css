@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+/** CART **/
+.cart{
+    color: #253746;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    margin-bottom: 1vh;
+}
+
+.cart a{
+    color: #253746;
+    text-decoration: none;
+}
+
+.cart a:hover{
+    color: #253746c6;
+    text-decoration: underline;
+}
+
+.clothingitems{
+    padding: 20px;
+}
+
+.clothingitems img{
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.clothingitems a{
+    color: #253746;
+    text-decoration: none;
+}
+
+.clothingitems p{
+    color: #253746da;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+}

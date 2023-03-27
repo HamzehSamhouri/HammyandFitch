@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+/** PROMOTION **/
+.promotion {
+    padding-top: 5vh;
+    height: 51vh;
+    width: 70%;
+    color: #253746;
+    margin: 0 auto;
+}
+
+.promotion h1{
+    text-align: center;
+    letter-spacing: 0.7px;
+}
+
+.promotion h1 span{
+    font-style: italic;
+}
+
+.promotion h5{
+    font-family: 'Gothic A1', sans-serif;
+    margin-top: 40px;
+}
+
+.promotion p{
+    color: #253746df;
+    margin-left: 5px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
