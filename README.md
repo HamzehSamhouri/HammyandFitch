@@ -54,23 +54,18 @@ Through recreating a smooth front-end user experience with challenging CSS desig
 ### User Interface
 Main homepage
 
-[![Homepage]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/K75g04-8muQ))
-
+[![homepage](./site_images/homepage.png)](https://youtu.be/K75g04-8muQ)
 
 Clothing Section
-![Mens Clothing Section](./site_images/MensClothing.png)
-
-Clothing detail page where user can view images, pricing, descriptions, as well as _add to cart_  
-![Clothing Details Part 1](./site_images/ClothingDetail1.png)
+[![shop](./site_images/shop.png)](https://youtu.be/HDnF0qQWPJA)
 
 
 ![Promotion](./site_images/promotion.png)
 
 ### Manager Interface
 Manager Portal where clothing items can be added, edited, and/or deleted.
-![Manager Portal ](./site_images/Managersite.png)
-New Product Form
-![New Product ](./site_images/NewProduct.png)
+[![managersite](./site_images/managersite.png)](https://youtu.be/F4X_CF1EpHI)
+
 
 
 <br>
