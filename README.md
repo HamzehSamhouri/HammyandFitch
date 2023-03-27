@@ -54,7 +54,7 @@ Through recreating a smooth front-end user experience with challenging CSS desig
 ### User Interface
 Main homepage
 
-![Homepage](./site_images/homepage.mp4)
+![Homepage](./site_images/homepage.mov)
 
 Clothing Section
 ![Mens Clothing Section](./site_images/MensClothing.png)
