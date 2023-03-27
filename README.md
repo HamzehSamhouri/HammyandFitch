@@ -101,7 +101,6 @@ To do:
 - Functional _checkout_ where, upon checkout, item quantity will be reduced (once quantity reaches 0 item temporarily hidden from site)
 
 - Functional _Promotion Details_ page where manager can add, edit, and delete promotions
-![Promotion Details](./site_images/Promotions.png)
 
 <br>
 
