@@ -62,6 +62,9 @@ Clothing Section
 Clothing detail page where user can view images, pricing, descriptions, as well as _add to cart_  
 ![Clothing Details Part 1](./site_images/ClothingDetail1.png)
 
+
+![Promotion](./site_images/promotion.png)
+
 ### Manager Interface
 Manager Portal where clothing items can be added, edited, and/or deleted.
 ![Manager Portal ](./site_images/Managersite.png)
