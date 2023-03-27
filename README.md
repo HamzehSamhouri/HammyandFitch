@@ -52,18 +52,18 @@ Through recreating a smooth front-end user experience with challenging CSS desig
 
 ## Screenshots
 ### User Interface
-Main homepage
 
+Main homepage (click to play video)
 [![homepage](./site_images/homepage.png)](https://youtu.be/K75g04-8muQ)
 
-Clothing Section
+Clothing Section (click to play video)
 [![shop](./site_images/shop.png)](https://youtu.be/HDnF0qQWPJA)
 
 
 ![Promotion](./site_images/promotion.png)
 
 ### Manager Interface
-Manager Portal where clothing items can be added, edited, and/or deleted.
+Manager Portal where clothing items can be added, edited, and/or deleted.  (click to play video)
 [![managersite](./site_images/managersite.png)](https://youtu.be/F4X_CF1EpHI)
 
 
