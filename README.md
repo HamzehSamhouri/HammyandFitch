@@ -22,25 +22,29 @@ Through recreating a smooth front-end user experience with challenging CSS desig
 
 
 ## Technologies Used
-* [Javascript](https://www.javascript.com/)
-* [React.js](https://reactjs.org/)
-* [Express](https://expressjs.com/)
-* [Node.js](https://nodejs.org/en/)
-* [MongoDB](https://www.mongodb.com/)
-* [Mongoose](https://mongoosejs.com/)
+* [Java](https://www.java.com/en/)
+* [Spring](https://spring.io/)
+* JPA/JSP
+* [MySQL](https://www.mysql.com/)
+* [Bcrypt](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/crypto/bcrypt/BCrypt.html)
+* [Bootstrap](https://getbootstrap.com/)
+
+
+
 
 <br>
 
 
 ## Features
 ### User
-- Homepage view, Promotion Detail view (planned functionality), and Cart view (planned functionality)
-- Designated Men's and Women's clothing sections with functional search bar and filters 
-- Clothing detail section with "Add to Cart" button (planned functionality)
+- Homepage view, Promotion Detail view, and Cart view
+- Designated Men's and Women's Clothing Sections 
+- Clothing detail section with "Add to Cart" button
+
 ### Manager
-- Manager portal where all clothing items are displayed and can be filtered through
+- Manager portal where all clothing items are displayed
 - New product form
-- Edit and/or delete items
+- Edit and/or delete products
 
 
 <br>
@@ -49,19 +53,17 @@ Through recreating a smooth front-end user experience with challenging CSS desig
 ## Screenshots
 ### User Interface
 Main homepage
-![Homepage Part 1](./site_images/Homepage1.png)
-![Homepage Part 2](./site_images/Homepage2.png)
-![Homepage Part 3](./site_images/Homepage3.png)
 
-Clothing Section with functional search bar and filters
+![Homepage](./site_images/homepage.mp4)
+
+Clothing Section
 ![Mens Clothing Section](./site_images/MensClothing.png)
 
 Clothing detail page where user can view images, pricing, descriptions, as well as _add to cart_  
 ![Clothing Details Part 1](./site_images/ClothingDetail1.png)
-![Clothing Details Part 2](./site_images/ClothingDetail2.png)
 
 ### Manager Interface
-Manager Portal where new clothing items can be added, all clothes are displayed with options to edit and delete items.
+Manager Portal where clothing items can be added, edited, and/or deleted.
 ![Manager Portal ](./site_images/Managersite.png)
 New Product Form
 ![New Product ](./site_images/NewProduct.png)
@@ -71,15 +73,9 @@ New Product Form
 
 
 ## Setup and Usage
-Project requirements/dependencies for server and client are located within designated  package-lock.json and package.json files. 
+<!-- Project requirements/dependencies for server and client are located within designated  package-lock.json and package.json files.  -->
 
-        cd server
-        npm install express cors mongoose
-        nodemon server.js
-
-        cd client
-        npm install react-bootstrap bootstrap axios react-router-dom
-        npm run start
+        mvn clean spring-boot:run
 
 
 <br>
@@ -101,16 +97,9 @@ Room for improvement:
 
 
 To do:
-- CSS responsiveness
+- Fine-tune CSS responsiveness
 
-- User _myAbercrombie_ login and registration pages
-![User Registration](./site_images/UserRegistration.png)
-
-- Manager login page so that the manager portal is secure
-![Manager Registration](./site_images/ManagerPortal.png)
-
-- Functional _Add to Cart_ button and Cart page. Upon checkout item quantity will be reduced (once quantity reaches 0 item temporarily hidden from site)
-![Cart](./site_images/Cart.png)
+- Functional _checkout_ where, upon checkout, item quantity will be reduced (once quantity reaches 0 item temporarily hidden from site)
 
 - Functional _Promotion Details_ page where manager can add, edit, and delete promotions
 ![Promotion Details](./site_images/Promotions.png)
