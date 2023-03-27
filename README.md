@@ -54,7 +54,8 @@ Through recreating a smooth front-end user experience with challenging CSS desig
 ### User Interface
 Main homepage
 
-![Homepage](./site_images/homepage.gif)
+[![Homepage]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/K75g04-8muQ))
+
 
 Clothing Section
 ![Mens Clothing Section](./site_images/MensClothing.png)
